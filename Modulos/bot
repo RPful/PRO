@@ -2291,7 +2291,7 @@ while :; do
                     _VAR1=$(echo -e ${message_text[$id]} | awk -F '@' {'print $2'})
                     [[ -z $_VAR1 ]] && {
                         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                            --text "$(echo -e "❌ Erro \n\n⚠️ Informe o user [EX: @scottssh]")" \
+                            --text "$(echo -e "❌ Erro \n\n⚠️ Informe o user [EX: @RP4321]")" \
                             --parse_mode html
                         break
                     }
