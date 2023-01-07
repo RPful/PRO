@@ -888,10 +888,10 @@ backup_users() {
 sobremim() {
     local msg
     env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>Scott-PRO</b>\n"
+        env_msg+="<b>INTERNET VPN</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-    msg+="<b>Desenvolvido por:</b> @scottssh\n"
-    msg+="<b>Canal Oficial:</b> @SSHPLUS\n\n"
+    msg+="<b>Desenvolvido por:</b> @RP4321\n"
+    msg+="<b>Canal Oficial:</b> @CANALMEGAVPN\n\n"
     msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
